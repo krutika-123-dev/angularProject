@@ -1,0 +1,16 @@
+<mat-card class="sign-in-card">
+  <h2>Sign Up Page</h2>
+  <input placeholder="Username" type="text" class="sign-up-input">
+  <input placeholder="Email" type="email" class="sign-up-input">
+  <input placeholder="Password" type="password" class="sign-up-input">
+  <div class="sign-up-input select-wrapper">
+    <select required class="sign-up-select">
+      <option value="" disabled selected>Select designation</option>
+      <option value="superAdmin">Super Admin</option>
+      <option value="manager">Manager</option>
+      <option value="user">User</option>
+    </select>
+  </div>
+  <button mat-raised-button color="primary" class="sign-up-button"
+  (click)="onSignUp()">Register</button>
+</mat-card>

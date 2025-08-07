@@ -1,0 +1,58 @@
+/* Style for the toolbar header */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  font-size: 1.2rem;
+}
+
+/* Style for the title link */
+.positronx {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+/* Navigation items container */
+.nav-tool-items {
+  display: flex;
+  gap: 12px;
+}
+
+/* Active link styling */
+a.active {
+  font-weight: bold;
+  color: #ffd740 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .app-header {
+    flex-direction: column;
+    padding: 8px;
+  }
+  .nav-tool-items {
+    margin-top: 8px;
+    gap: 12px;
+  }
+  /* Active link styling */
+a.active {
+  font-weight: bold;
+  color: #ffd740 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .app-header {
+    flex-direction: column;
+    padding: 8px;
+  }
+  .nav-tool-items {
+    margin-top: 8px;
+    gap: 8px;
+  }
+}
+}
